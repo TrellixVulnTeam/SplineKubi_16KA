@@ -131,10 +131,8 @@ def FullKubi(table, find, f0,fn):
     Listeq.clear()
 
     for i in range(size):
-        maineq=0
         eq=0
         for j in range(size):
-            eq_0=0
             eq_0=MainMat[i][j]*ListM[j]
             eq+=eq_0
         maineq=eq-ListD[i]
